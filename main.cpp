@@ -86,6 +86,6 @@ int main() {
     }
     long long notInvited = 0;
     for (int i = 1; i <= n; ++i) if (!inOdd[i]) ++notInvited;
-    cout << notInvited << "\n";
+    cout << notInvited << "\n"; // end of output
     return 0;
 }
